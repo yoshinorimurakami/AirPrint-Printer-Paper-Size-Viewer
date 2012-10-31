@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9206E7F71640975F0020A151 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9206E7F61640975F0020A151 /* README.md */; };
+		920AF4E6142A62EE00414280 /* SelectContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920AF4E5142A62EE00414280 /* SelectContentViewController.m */; };
+		921E5C92144BDD2700BEE56F /* PrintContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 921E5C91144BDD2700BEE56F /* PrintContent.m */; };
+		927CD85812E9FF7D008880ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927CD85712E9FF7D008880ED /* UIKit.framework */; };
+		927CD85A12E9FF7D008880ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927CD85912E9FF7D008880ED /* Foundation.framework */; };
+		927CD85C12E9FF7D008880ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927CD85B12E9FF7D008880ED /* CoreGraphics.framework */; };
+		927CD86212E9FF7D008880ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 927CD86012E9FF7D008880ED /* InfoPlist.strings */; };
+		927CD86512E9FF7D008880ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CD86412E9FF7D008880ED /* main.m */; };
+		927CD86812E9FF7D008880ED /* AirPrintPaperViwerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CD86712E9FF7D008880ED /* AirPrintPaperViwerAppDelegate.m */; };
+		927CD86B12E9FF7D008880ED /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 927CD86912E9FF7D008880ED /* MainWindow.xib */; };
+		927CD86E12E9FF7D008880ED /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CD86D12E9FF7D008880ED /* RootViewController.m */; };
+		927CD87112E9FF7D008880ED /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 927CD86F12E9FF7D008880ED /* RootViewController.xib */; };
+		929D6E8412EAAEAD00B640A3 /* PaperNameAndSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 929D6E8312EAAEAD00B640A3 /* PaperNameAndSize.m */; };
+		92DD6BDB16417C560016B8E7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 92DD6BDA16417C560016B8E7 /* icon.png */; };
+		92DD6BE716417D010016B8E7 /* 2_3_Landscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92DD6BDD16417D010016B8E7 /* 2_3_Landscape.jpg */; };
+		92DD6BE816417D010016B8E7 /* 2_3_Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 92DD6BDE16417D010016B8E7 /* 2_3_Landscape.png */; };
+		92DD6BE916417D010016B8E7 /* 2_3_Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 92DD6BDF16417D010016B8E7 /* 2_3_Portrait.png */; };
+		92DD6BEA16417D010016B8E7 /* 3_4_Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 92DD6BE016417D010016B8E7 /* 3_4_Landscape.png */; };
+		92DD6BEB16417D010016B8E7 /* 3_4_Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 92DD6BE116417D010016B8E7 /* 3_4_Portrait.png */; };
+		92DD6BEC16417D010016B8E7 /* 16_9_Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 92DD6BE216417D010016B8E7 /* 16_9_Landscape.png */; };
+		92DD6BED16417D010016B8E7 /* 16_9_Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 92DD6BE316417D010016B8E7 /* 16_9_Portrait.png */; };
+		92DD6BEE16417D010016B8E7 /* HowPrintingWorksiniOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 92DD6BE416417D010016B8E7 /* HowPrintingWorksiniOS.pdf */; };
+		92DD6BEF16417D010016B8E7 /* IMG_0426.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 92DD6BE516417D010016B8E7 /* IMG_0426.JPG */; };
+		92DD6BF016417D010016B8E7 /* someTextFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 92DD6BE616417D010016B8E7 /* someTextFile.txt */; };
+		92EFDEE51445413400F87073 /* MyAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EFDEE41445413400F87073 /* MyAppInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9206E7F61640975F0020A151 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		920AF4E4142A62EE00414280 /* SelectContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectContentViewController.h; sourceTree = "<group>"; };
+		920AF4E5142A62EE00414280 /* SelectContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectContentViewController.m; sourceTree = "<group>"; };
+		921E5C90144BDD2700BEE56F /* PrintContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintContent.h; sourceTree = "<group>"; };
+		921E5C91144BDD2700BEE56F /* PrintContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintContent.m; sourceTree = "<group>"; };
+		927CD85312E9FF7D008880ED /* AirPrintPaperViwer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPrintPaperViwer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		927CD85712E9FF7D008880ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		927CD85912E9FF7D008880ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		927CD85B12E9FF7D008880ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		927CD85F12E9FF7D008880ED /* AirPrintPaperViwer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirPrintPaperViwer-Info.plist"; sourceTree = "<group>"; };
+		927CD86112E9FF7D008880ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		927CD86312E9FF7D008880ED /* AirPrintPaperViwer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirPrintPaperViwer-Prefix.pch"; sourceTree = "<group>"; };
+		927CD86412E9FF7D008880ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		927CD86612E9FF7D008880ED /* AirPrintPaperViwerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirPrintPaperViwerAppDelegate.h; sourceTree = "<group>"; };
+		927CD86712E9FF7D008880ED /* AirPrintPaperViwerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirPrintPaperViwerAppDelegate.m; sourceTree = "<group>"; };
+		927CD86A12E9FF7D008880ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		927CD86C12E9FF7D008880ED /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		927CD86D12E9FF7D008880ED /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		927CD87012E9FF7D008880ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		929D6E8212EAAEAD00B640A3 /* PaperNameAndSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperNameAndSize.h; sourceTree = "<group>"; };
+		929D6E8312EAAEAD00B640A3 /* PaperNameAndSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperNameAndSize.m; sourceTree = "<group>"; };
+		92DD6BDA16417C560016B8E7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		92DD6BDD16417D010016B8E7 /* 2_3_Landscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2_3_Landscape.jpg; path = "test files/2_3_Landscape.jpg"; sourceTree = "<group>"; };
+		92DD6BDE16417D010016B8E7 /* 2_3_Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2_3_Landscape.png; path = "test files/2_3_Landscape.png"; sourceTree = "<group>"; };
+		92DD6BDF16417D010016B8E7 /* 2_3_Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2_3_Portrait.png; path = "test files/2_3_Portrait.png"; sourceTree = "<group>"; };
+		92DD6BE016417D010016B8E7 /* 3_4_Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3_4_Landscape.png; path = "test files/3_4_Landscape.png"; sourceTree = "<group>"; };
+		92DD6BE116417D010016B8E7 /* 3_4_Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3_4_Portrait.png; path = "test files/3_4_Portrait.png"; sourceTree = "<group>"; };
+		92DD6BE216417D010016B8E7 /* 16_9_Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16_9_Landscape.png; path = "test files/16_9_Landscape.png"; sourceTree = "<group>"; };
+		92DD6BE316417D010016B8E7 /* 16_9_Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16_9_Portrait.png; path = "test files/16_9_Portrait.png"; sourceTree = "<group>"; };
+		92DD6BE416417D010016B8E7 /* HowPrintingWorksiniOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = HowPrintingWorksiniOS.pdf; path = "test files/HowPrintingWorksiniOS.pdf"; sourceTree = "<group>"; };
+		92DD6BE516417D010016B8E7 /* IMG_0426.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0426.JPG; path = "test files/IMG_0426.JPG"; sourceTree = "<group>"; };
+		92DD6BE616417D010016B8E7 /* someTextFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = someTextFile.txt; path = "test files/someTextFile.txt"; sourceTree = "<group>"; };
+		92EFDEE31445413400F87073 /* MyAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAppInfo.h; sourceTree = "<group>"; };
+		92EFDEE41445413400F87073 /* MyAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAppInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		927CD85012E9FF7D008880ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927CD85812E9FF7D008880ED /* UIKit.framework in Frameworks */,
+				927CD85A12E9FF7D008880ED /* Foundation.framework in Frameworks */,
+				927CD85C12E9FF7D008880ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		927CD84812E9FF7D008880ED = {
+			isa = PBXGroup;
+			children = (
+				9206E7F61640975F0020A151 /* README.md */,
+				927CD85D12E9FF7D008880ED /* AirPrintPaperViwer */,
+				927CD85612E9FF7D008880ED /* Frameworks */,
+				927CD85412E9FF7D008880ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		927CD85412E9FF7D008880ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				927CD85312E9FF7D008880ED /* AirPrintPaperViwer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		927CD85612E9FF7D008880ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				927CD85712E9FF7D008880ED /* UIKit.framework */,
+				927CD85912E9FF7D008880ED /* Foundation.framework */,
+				927CD85B12E9FF7D008880ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		927CD85D12E9FF7D008880ED /* AirPrintPaperViwer */ = {
+			isa = PBXGroup;
+			children = (
+				927CD86612E9FF7D008880ED /* AirPrintPaperViwerAppDelegate.h */,
+				927CD86712E9FF7D008880ED /* AirPrintPaperViwerAppDelegate.m */,
+				927CD86912E9FF7D008880ED /* MainWindow.xib */,
+				927CD86C12E9FF7D008880ED /* RootViewController.h */,
+				927CD86D12E9FF7D008880ED /* RootViewController.m */,
+				927CD86F12E9FF7D008880ED /* RootViewController.xib */,
+				92E5CBCC140EF80900AD90C7 /* SelectContent */,
+				929D6E8212EAAEAD00B640A3 /* PaperNameAndSize.h */,
+				929D6E8312EAAEAD00B640A3 /* PaperNameAndSize.m */,
+				927CD85E12E9FF7D008880ED /* Supporting Files */,
+				92EFDEE31445413400F87073 /* MyAppInfo.h */,
+				92EFDEE41445413400F87073 /* MyAppInfo.m */,
+			);
+			path = AirPrintPaperViwer;
+			sourceTree = "<group>";
+		};
+		927CD85E12E9FF7D008880ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92DD6BDA16417C560016B8E7 /* icon.png */,
+				927CD85F12E9FF7D008880ED /* AirPrintPaperViwer-Info.plist */,
+				927CD86012E9FF7D008880ED /* InfoPlist.strings */,
+				927CD86312E9FF7D008880ED /* AirPrintPaperViwer-Prefix.pch */,
+				927CD86412E9FF7D008880ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92C9FABC16417F08008D6A11 /* test files */ = {
+			isa = PBXGroup;
+			children = (
+				92DD6BDD16417D010016B8E7 /* 2_3_Landscape.jpg */,
+				92DD6BDE16417D010016B8E7 /* 2_3_Landscape.png */,
+				92DD6BDF16417D010016B8E7 /* 2_3_Portrait.png */,
+				92DD6BE016417D010016B8E7 /* 3_4_Landscape.png */,
+				92DD6BE116417D010016B8E7 /* 3_4_Portrait.png */,
+				92DD6BE216417D010016B8E7 /* 16_9_Landscape.png */,
+				92DD6BE316417D010016B8E7 /* 16_9_Portrait.png */,
+				92DD6BE416417D010016B8E7 /* HowPrintingWorksiniOS.pdf */,
+				92DD6BE516417D010016B8E7 /* IMG_0426.JPG */,
+				92DD6BE616417D010016B8E7 /* someTextFile.txt */,
+			);
+			name = "test files";
+			sourceTree = "<group>";
+		};
+		92E5CBCC140EF80900AD90C7 /* SelectContent */ = {
+			isa = PBXGroup;
+			children = (
+				920AF4E4142A62EE00414280 /* SelectContentViewController.h */,
+				920AF4E5142A62EE00414280 /* SelectContentViewController.m */,
+				921E5C90144BDD2700BEE56F /* PrintContent.h */,
+				921E5C91144BDD2700BEE56F /* PrintContent.m */,
+				92C9FABC16417F08008D6A11 /* test files */,
+			);
+			name = SelectContent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		927CD85212E9FF7D008880ED /* AirPrintPaperViwer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 927CD87412E9FF7D008880ED /* Build configuration list for PBXNativeTarget "AirPrintPaperViwer" */;
+			buildPhases = (
+				927CD84F12E9FF7D008880ED /* Sources */,
+				927CD85012E9FF7D008880ED /* Frameworks */,
+				927CD85112E9FF7D008880ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPrintPaperViwer;
+			productName = AirPrintPaperViwer;
+			productReference = 927CD85312E9FF7D008880ED /* AirPrintPaperViwer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		927CD84A12E9FF7D008880ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 927CD84D12E9FF7D008880ED /* Build configuration list for PBXProject "AirPrintPaperViwer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 927CD84812E9FF7D008880ED;
+			productRefGroup = 927CD85412E9FF7D008880ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				927CD85212E9FF7D008880ED /* AirPrintPaperViwer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		927CD85112E9FF7D008880ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927CD86212E9FF7D008880ED /* InfoPlist.strings in Resources */,
+				927CD86B12E9FF7D008880ED /* MainWindow.xib in Resources */,
+				927CD87112E9FF7D008880ED /* RootViewController.xib in Resources */,
+				9206E7F71640975F0020A151 /* README.md in Resources */,
+				92DD6BDB16417C560016B8E7 /* icon.png in Resources */,
+				92DD6BE716417D010016B8E7 /* 2_3_Landscape.jpg in Resources */,
+				92DD6BE816417D010016B8E7 /* 2_3_Landscape.png in Resources */,
+				92DD6BE916417D010016B8E7 /* 2_3_Portrait.png in Resources */,
+				92DD6BEA16417D010016B8E7 /* 3_4_Landscape.png in Resources */,
+				92DD6BEB16417D010016B8E7 /* 3_4_Portrait.png in Resources */,
+				92DD6BEC16417D010016B8E7 /* 16_9_Landscape.png in Resources */,
+				92DD6BED16417D010016B8E7 /* 16_9_Portrait.png in Resources */,
+				92DD6BEE16417D010016B8E7 /* HowPrintingWorksiniOS.pdf in Resources */,
+				92DD6BEF16417D010016B8E7 /* IMG_0426.JPG in Resources */,
+				92DD6BF016417D010016B8E7 /* someTextFile.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		927CD84F12E9FF7D008880ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927CD86512E9FF7D008880ED /* main.m in Sources */,
+				927CD86812E9FF7D008880ED /* AirPrintPaperViwerAppDelegate.m in Sources */,
+				927CD86E12E9FF7D008880ED /* RootViewController.m in Sources */,
+				929D6E8412EAAEAD00B640A3 /* PaperNameAndSize.m in Sources */,
+				920AF4E6142A62EE00414280 /* SelectContentViewController.m in Sources */,
+				92EFDEE51445413400F87073 /* MyAppInfo.m in Sources */,
+				921E5C92144BDD2700BEE56F /* PrintContent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		927CD86012E9FF7D008880ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				927CD86112E9FF7D008880ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		927CD86912E9FF7D008880ED /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				927CD86A12E9FF7D008880ED /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		927CD86F12E9FF7D008880ED /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				927CD87012E9FF7D008880ED /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		927CD87212E9FF7D008880ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yoshinori Murakami (9CEQHQ5KBT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CE590013-3D72-4663-9927-18105E9E7025";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		927CD87312E9FF7D008880ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		927CD87512E9FF7D008880ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yoshinori Murakami (9CEQHQ5KBT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirPrintPaperViwer/AirPrintPaperViwer-Prefix.pch";
+				INFOPLIST_FILE = "AirPrintPaperViwer/AirPrintPaperViwer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CE590013-3D72-4663-9927-18105E9E7025";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		927CD87612E9FF7D008880ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirPrintPaperViwer/AirPrintPaperViwer-Prefix.pch";
+				INFOPLIST_FILE = "AirPrintPaperViwer/AirPrintPaperViwer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		927CD84D12E9FF7D008880ED /* Build configuration list for PBXProject "AirPrintPaperViwer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927CD87212E9FF7D008880ED /* Debug */,
+				927CD87312E9FF7D008880ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		927CD87412E9FF7D008880ED /* Build configuration list for PBXNativeTarget "AirPrintPaperViwer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927CD87512E9FF7D008880ED /* Debug */,
+				927CD87612E9FF7D008880ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 927CD84A12E9FF7D008880ED /* Project object */;
+}
