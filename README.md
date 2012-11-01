@@ -4,6 +4,6 @@
 
 *Solution*: This iPhone App displays and prints all available paper sizes of target printer. It displays and prints all physical paper sizes and printable areas of the papers.
 
-*Discussion*: This App is for developer who deals with AirPrint Printers. This App includes test print with various width x height ratio images. 
+*Discussion*: This App is for developer who deals with AirPrint Printers. This App includes printing various width x height ratio images to a selected paper. 
 
 
